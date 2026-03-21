@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-end overflow-hidden bg-[#b0b0b0]">
+    <section className="relative h-dvh pt-[76px] lg:pt-[96px] flex items-end overflow-hidden bg-[#b0b0b0]">
 
       {/* Background video */}
       <video
