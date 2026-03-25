@@ -27,7 +27,7 @@ export default function Navbar() {
           <li key={item}>
             <a
               href="#"
-              className="text-[1.2rem] text-gray-700 hover:text-white transition-colors duration-200 no-underline"
+              className="text-sm text-gray-700 hover:text-white transition-colors duration-200 no-underline"
             >
               {item}
             </a>
@@ -38,7 +38,7 @@ export default function Navbar() {
       {/* CTA */}
       <a
         href="#"
-        className="hidden md:inline-block font-syne text-[1rem] font-bold tracking-widest uppercase bg-white text-[#1a1a1a] px-6 py-2.5 rounded-full hover:bg-white/90 transition-all duration-200 hover:-translate-y-px no-underline"
+        className="hidden md:inline-block font-syne text-sm font-bold tracking-widest uppercase bg-white text-[#1a1a1a] px-6 py-2.5 rounded-full hover:bg-white/90 transition-all duration-200 hover:-translate-y-px no-underline"
       >
         Book Now
       </a>

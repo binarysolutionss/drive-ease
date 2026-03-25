@@ -68,7 +68,7 @@ export default function About() {
             href="#"
             className="font-syne text-[0.85rem] font-bold tracking-widest uppercase text-white border-b border-white/30 pb-1 inline-flex items-center gap-2 hover:gap-4 hover:border-white transition-all duration-300 no-underline"
           >
-            Meet the team →
+            Meet the team
           </a>
         </div>
 
