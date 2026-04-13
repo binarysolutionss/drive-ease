@@ -30,7 +30,7 @@ export default function About() {
       {/* Subtle radial glow */}
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_70%_50%,rgba(176,176,176,0.06),transparent_60%)]" />
 
-      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-24 items-center max-w-7xl mx-auto">
+      <div className="relative z-10 gap-20 lg:gap-24 items-center max-w-7xl mx-auto">
 
         {/* Left — copy */}
         <div>
@@ -49,7 +49,7 @@ export default function About() {
           </h2>
 
           {/* Body */}
-          <div className="text-[1rem] font-light leading-[1.85] text-white/50 mb-10 max-w-[48ch] space-y-4">
+          <div className="text-[1rem] font-light leading-[1.85] text-white/80 mb-10 space-y-4">
             <p>
               DriveEase was founded on a simple belief — renting a car should
               feel as good as driving one. Since 2012, we&apos;ve been putting
